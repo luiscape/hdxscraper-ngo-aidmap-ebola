@@ -26,7 +26,7 @@ segmentData <- function(methods = is.numeric()) {
       outputData <- rbind(outputData, it)
     }
   }
-  outputData <- outputData[duplicated(outputData) == F, ]
+  outputData <- outputData[duplicated(outputData$interaction_intervention_id) == F, ]
 }
 
 # Running.
