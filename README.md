@@ -1,0 +1,2 @@
+# InterAction NGO AidMap on Ebola-related Data
+Simple scraper for [InterAction's NGO AidMap](http://ngoaidmap.org/). The scraper downlaods the complete dataset (available [here](http://ngoaidmap.org/sites/download/12.csv)) and looks for Ebola-related data.
